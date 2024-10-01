@@ -46,6 +46,7 @@ navigation = { group = "org.jetbrains.androidx.navigation", name = "navigation-c
 kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }
 kmp-ktor-json = { module = "io.ktor:ktor-serialization-kotlinx-json", version.ref = "ktor"}
 negotiation = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "ktor" }
+engine-apache = { module = "io.ktor:ktor-client-apache5", version.ref = "ktor" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
